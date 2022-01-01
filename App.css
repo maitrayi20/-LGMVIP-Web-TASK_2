@@ -1,0 +1,99 @@
+button
+{
+  color: aliceblue;
+  font-weight: 600;
+  float: right;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(24, 105, 55);
+  padding: 12px 10px;
+}
+button:hover
+{
+  transition: 200ms;
+ scale:1.03;
+ background-color: rgb(163, 7, 85);
+}
+
+.column1
+{
+  height: 100%;
+  float: left;
+  width: 90%;
+}
+.column2
+{
+  height: 100%;
+  float: left;
+  width: 10%;
+}
+.row
+{
+  height: 50px;
+  padding: 20px 50px 0px 30px ;
+}
+
+.box
+{
+  background-color: rgb(55, 230, 163) !important;
+}
+
+.box2
+{
+  margin-left: 100px;
+}
+
+.avatar
+{
+  border-radius: 50%;
+}
+
+.column3
+{
+  float: left !important;
+  width: 33% !important;
+}
+h2
+{
+  margin-top: 0px;
+  padding-top: 0px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.profile 
+{
+  border: 2px solid rgba(9, 45, 98, 0.918);
+  box-shadow: 0 4px 8px 0 rgba(8, 5, 46, 0.342);
+  max-width: 200px;
+  margin: 10px 5px;
+  text-align: center;
+  font-family: arial;
+  padding: 15px;
+  border-radius: 18px;
+  background-color: rgb(55, 230, 163);
+}
+
+.profile:hover
+{
+  transition:400ms;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  transform: translateY(-3px);
+}
+.email 
+{
+  color: rgb(59, 52, 52);
+  font-size: 15px;
+  overflow-wrap: anywhere;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.name
+{
+  font-size:25px;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.loader
+{
+  margin-left: 300px;
+  margin-top: 100px;
+  margin-right: 80px;
+}
